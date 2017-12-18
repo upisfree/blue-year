@@ -1,0 +1,36 @@
+{"frames": {
+
+"clock-1.png":
+{
+	"frame": {"x":0,"y":0,"w":18,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":71},
+	"sourceSize": {"w":18,"h":71}
+},
+"clock-2.png":
+{
+	"frame": {"x":0,"y":71,"w":18,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":71},
+	"sourceSize": {"w":18,"h":71}
+},
+"clock-3.png":
+{
+	"frame": {"x":0,"y":142,"w":18,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":71},
+	"sourceSize": {"w":18,"h":71}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "clock.png",
+	"format": "RGBA8888",
+	"size": {"w":18,"h":213},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3a888fd9677302682e84e3590ae9c958:f74afceb0f60971d9111b2a67cd0bf40:1fd605e8c9d2e55b7e8698a23ea97a4c$"
+}
+}
