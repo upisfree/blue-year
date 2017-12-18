@@ -13,7 +13,12 @@ var server = http.createServer(function(req, res) {
   });
 
   req.on('end', function() {
-    fs.writeFile('../src/map.coffee', body, function() {
+    fs.writeFile('../src/map.coffee', body, function(err) {
+      if (err)
+        throw err;
+
+      console.log('wrote to map.coffee');
+
       res.end('wrote to map.coffee');
     });
   });
