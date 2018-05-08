@@ -1,8 +1,8 @@
 # simple map editor
 # usage: start server by `node editor/editor.js`, click on enity and press the key
 # R: rotate 45 degrees
-# 1-9: set scaleimport config from './config.coffee'
-
+# 1-9: set scale
+import config from './config.coffee'
 import Clock from './enities/clock.coffee'
 import Furnace from './enities/furnace.coffee'
 import Bed from './enities/bed.coffee'
